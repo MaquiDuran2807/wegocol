@@ -29,6 +29,9 @@ urlpatterns = [
     # Api routes
     path('api/', include('autenticacion.urls')),
     path('api/', include(router.urls)),
+
+    #home
+    path('', include('home.urls')),
 ]
 
 
